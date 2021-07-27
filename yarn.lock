@@ -3450,6 +3450,11 @@ cookie@0.4.0:
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.0.tgz#beb437e7022b3b6d49019d088665303ebe9c14ba"
   integrity sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg/jqx+1Om94/W6ZaPDOUbnjOt/99w66zk+l1Xg==
 
+copy-clipboard-js@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/copy-clipboard-js/-/copy-clipboard-js-1.0.3.tgz#ade70416404cc7997752f11f40cda67b8a1ecb3c"
+  integrity sha512-8dduCjn/B6cBFHF7cDsBMd1cAKrlGv58ZdNRcPRyUkRXYwZ+k0v2iQTtPgIFL6+wRSJkLzbLzfkyp6fIJkbt8Q==
+
 copy-concurrently@^1.0.0:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/copy-concurrently/-/copy-concurrently-1.0.5.tgz#92297398cae34937fcafd6ec8139c18051f0b5e0"
@@ -5556,6 +5561,11 @@ http-proxy@^1.17.0:
     eventemitter3 "^4.0.0"
     follow-redirects "^1.0.0"
     requires-port "^1.0.0"
+
+http-response-details@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/http-response-details/-/http-response-details-1.0.0.tgz#8bdeb0f4485788a865d815b41c017c9e4435dc59"
+  integrity sha512-ruNP4wWuWxWAh0SnEMZXPsfLwDw308GWJOvua+4gtoJpXSEct4a5/hqci6xAGuYvLVHiTDTh8vFO5MwDKlgomQ==
 
 http-signature@~1.2.0:
   version "1.2.0"
@@ -7666,6 +7676,11 @@ os-browserify@^0.3.0:
   resolved "https://registry.yarnpkg.com/os-browserify/-/os-browserify-0.3.0.tgz#854373c7f5c2315914fc9bfc6bd8238fdda1ec27"
   integrity sha1-hUNzx/XCMVkU/Jv8a9gjj92h7Cc=
 
+os-check@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/os-check/-/os-check-1.0.0.tgz#1139033696b251c9e580239c6db2dec866908714"
+  integrity sha512-n2o95ifcWxxzEP4fVxRV0n5uCeykcEGq6b3pI0vlrt7m3Sd76rYZ4Zya1uMysgGlBhHQ3U8F4/AsFy2IGgIBCQ==
+
 p-each-series@^2.1.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/p-each-series/-/p-each-series-2.2.0.tgz#105ab0357ce72b202a8a8b94933672657b5e2a9a"
@@ -8969,6 +8984,26 @@ react-is@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
+
+react-mua-error@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/react-mua-error/-/react-mua-error-2.1.3.tgz#40a6540dcd8924693bbafae547dd637902095d92"
+  integrity sha512-JTKd8nytt6ljpY2GTd7L2cSoKkMiOfZCGUrQEwxJ55UjII/1mRzTQmm18Uy9oEszF5oMHMH2Wkozat3r0yWjHQ==
+
+react-mua-gallery@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/react-mua-gallery/-/react-mua-gallery-2.2.0.tgz#0db39c156aef8fd39c664d86265de732a84d2764"
+  integrity sha512-ZAafmVrzDCSJErCkp+EPtubkBREpx63BtWKWKCPK3M77ImKtaBkH29/ypmfLc5TGpXJ7pyGqXNn6oP+toP//Kg==
+
+react-mua-login@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/react-mua-login/-/react-mua-login-2.1.3.tgz#f3b01273cfea85ff1f969c594f4c90477f12c59b"
+  integrity sha512-CLlGzMwrsdb7iVBMbBB3wdABnUrVkRrTzKRFB60rNJSVQIaH+KPBrUGQ9HRLp85cNqu+st7gHT7TlHgmyMzYDA==
+
+react-mua-signup@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/react-mua-signup/-/react-mua-signup-2.1.3.tgz#ba7c4629820bc846ff140710f28f095e5bf2f8e5"
+  integrity sha512-DSQNjT0DugxaIamXuJtj1PfDDfNDVGdZZawz+7M7CKXfAukH/XZek7ey0ZwPL0K3GfM7pHrpX+POAnvWYSk5rg==
 
 react-refresh@^0.8.3:
   version "0.8.3"
