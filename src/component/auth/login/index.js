@@ -18,7 +18,11 @@ class LoginComponent extends React.Component{
                         })
                     .then((res)=>{
                         //console.log(res.data);
-                        localStorage.setItem("jwt",res.data["message"])
+                        if(res.data["message"]===undefined){
+                            alert("Login Falied")
+                        }else{
+                            localStorage.setItem("jwt",res.data["message"])
+                        }
                     })
             }}/>
         )
